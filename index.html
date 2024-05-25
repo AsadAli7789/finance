@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="lod"> <div class="lsp"><p>expense app</p></div>
+      <div class="lsp" >
+        <span id="lop">Total</span>
+      
+      </div>
+    </div>
+    
+    <div>
+      <form action="">
+     <input type="number" id="amount" placeholder="amount" required> <br>
+     <input type="text" id="desc" placeholder="desc"> <br>
+     <input type="date" id="date" placeholder="date"> <br>
+     <select name="" id="type">
+<option value="income"> income </option>
+<option value="expense">expense</option>
+     </select> <br>
+     <button onclick="transaction()">add transaction</button>
+
+</form>
+<table id="table" border="1">
+    <tr>
+        <th>type</th>
+        <th>amount</th>
+        <th>description</th>
+        <th>date</th>
+    </tr>
+</table>
+
+    <script src="app.js"></script>
+  </body>
+</html>
